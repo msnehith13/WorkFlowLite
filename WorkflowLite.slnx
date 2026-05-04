@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="WorkflowLite.Application/WorkflowLite.Application.csproj" />
+  <Project Path="WorkflowLite.Domain/WorkflowLite.Domain.csproj" />
+  <Project Path="WorkflowLite.Infrastructure/WorkflowLite.Infrastructure.csproj" />
+</Solution>

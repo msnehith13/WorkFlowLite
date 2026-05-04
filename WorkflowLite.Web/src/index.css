@@ -1,0 +1,280 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #f4f6f9;
+  color: #1a1a2e;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* ── Layout ── */
+.app-layout { display: flex; min-height: 100vh; }
+
+.sidebar {
+  width: 220px;
+  background: #1a1a2e;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0;
+  position: fixed;
+  top: 0; left: 0; bottom: 0;
+}
+
+.sidebar-logo {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0 24px 28px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  color: #7c83fd;
+  letter-spacing: 0.5px;
+}
+
+.sidebar nav { margin-top: 20px; }
+
+.sidebar nav a {
+  display: block;
+  padding: 11px 24px;
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.15s;
+}
+
+.sidebar nav a:hover,
+.sidebar nav a.active { color: #fff; background: rgba(124,131,253,0.15); }
+
+.sidebar-footer {
+  margin-top: auto;
+  padding: 16px 24px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.sidebar-footer button {
+  background: none;
+  border: 1px solid rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.7);
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  width: 100%;
+  transition: all 0.15s;
+}
+
+.sidebar-footer button:hover { border-color: #fff; color: #fff; }
+
+.main-content {
+  margin-left: 220px;
+  flex: 1;
+  padding: 32px;
+  max-width: 960px;
+}
+
+/* ── Page header ── */
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.page-header h1 { font-size: 22px; font-weight: 600; }
+.page-header p { font-size: 13px; color: #666; margin-top: 3px; }
+
+/* ── Cards ── */
+.card {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #e8eaf0;
+  padding: 24px;
+  margin-bottom: 16px;
+}
+
+.card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.card-title { font-size: 16px; font-weight: 600; }
+.card-desc { font-size: 13px; color: #666; margin-top: 4px; }
+
+/* ── Badges ── */
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.badge-active { background: #e6f9f0; color: #1a8a5a; }
+.badge-inactive { background: #f4f4f4; color: #888; }
+.badge-completed { background: #e6f9f0; color: #1a8a5a; }
+.badge-running { background: #fff8e6; color: #b07800; }
+.badge-failed { background: #fdecea; color: #c0392b; }
+.badge-pending { background: #f0f4ff; color: #5060c0; }
+
+/* ── Buttons ── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 18px;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  transition: all 0.15s;
+}
+
+.btn-primary { background: #7c83fd; color: #fff; }
+.btn-primary:hover { background: #6370fc; }
+.btn-danger { background: #fdecea; color: #c0392b; }
+.btn-danger:hover { background: #fad4d0; }
+.btn-ghost { background: #f4f6f9; color: #444; border: 1px solid #e0e0e0; }
+.btn-ghost:hover { background: #eaecf0; }
+.btn-success { background: #e6f9f0; color: #1a8a5a; }
+.btn-success:hover { background: #d0f0e4; }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.btn-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+
+/* ── Forms ── */
+.form-group { margin-bottom: 18px; }
+.form-group label { display: block; font-size: 13px; font-weight: 500; margin-bottom: 6px; color: #444; }
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 10px 13px;
+  border: 1px solid #dde0e8;
+  border-radius: 7px;
+  font-size: 14px;
+  color: #1a1a2e;
+  background: #fff;
+  transition: border-color 0.15s;
+  font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #7c83fd;
+}
+
+.form-group textarea { resize: vertical; min-height: 80px; }
+
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+/* ── Auth pages ── */
+.auth-wrap {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f4f6f9;
+}
+
+.auth-card {
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #e8eaf0;
+  padding: 40px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.auth-card h1 { font-size: 22px; font-weight: 700; margin-bottom: 6px; }
+.auth-card p { font-size: 13px; color: #666; margin-bottom: 28px; }
+.auth-card a { color: #7c83fd; text-decoration: none; font-weight: 500; }
+.auth-footer { margin-top: 20px; font-size: 13px; color: #666; text-align: center; }
+
+/* ── Steps ── */
+.step-block {
+  border: 1px solid #e8eaf0;
+  border-radius: 8px;
+  padding: 18px;
+  margin-bottom: 14px;
+  background: #fafbfd;
+}
+
+.step-block-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.step-num {
+  font-size: 12px;
+  font-weight: 600;
+  color: #7c83fd;
+  background: #f0f0ff;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+/* ── Rules ── */
+.rule-row {
+  display: grid;
+  grid-template-columns: 1fr 140px 1fr auto;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* ── Step logs ── */
+.log-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.log-row:last-child { border-bottom: none; }
+.log-step-name { font-size: 13px; font-weight: 500; min-width: 160px; }
+.log-msg { font-size: 13px; color: #555; flex: 1; }
+.log-time { font-size: 12px; color: #aaa; white-space: nowrap; }
+
+/* ── Alert ── */
+.alert {
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  margin-bottom: 18px;
+}
+
+.alert-error { background: #fdecea; color: #c0392b; border: 1px solid #f5c6c2; }
+.alert-success { background: #e6f9f0; color: #1a8a5a; border: 1px solid #b2e8d0; }
+
+/* ── Empty state ── */
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #aaa;
+}
+
+.empty-state h3 { font-size: 16px; margin-bottom: 8px; color: #666; }
+.empty-state p { font-size: 13px; margin-bottom: 20px; }
+
+/* ── Divider ── */
+.divider { border: none; border-top: 1px solid #e8eaf0; margin: 20px 0; }
+
+/* ── Trigger result ── */
+.trigger-result {
+  background: #f8faff;
+  border: 1px solid #dde3f8;
+  border-radius: 8px;
+  padding: 18px;
+  margin-top: 16px;
+}
+
+.trigger-result h4 { font-size: 14px; font-weight: 600; margin-bottom: 12px; }

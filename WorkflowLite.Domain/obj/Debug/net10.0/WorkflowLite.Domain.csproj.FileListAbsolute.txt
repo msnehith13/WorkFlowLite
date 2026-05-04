@@ -1,0 +1,11 @@
+D:\WorkFlowLite\WorkflowLite.Domain\obj\Debug\net10.0\WorkflowLite.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkFlowLite\WorkflowLite.Domain\obj\Debug\net10.0\WorkflowLite.Domain.AssemblyInfoInputs.cache
+D:\WorkFlowLite\WorkflowLite.Domain\obj\Debug\net10.0\WorkflowLite.Domain.AssemblyInfo.cs
+D:\WorkFlowLite\WorkflowLite.Domain\obj\Debug\net10.0\WorkflowLite.Domain.csproj.CoreCompileInputs.cache
+D:\WorkFlowLite\WorkflowLite.Domain\bin\Debug\net10.0\WorkflowLite.Domain.deps.json
+D:\WorkFlowLite\WorkflowLite.Domain\bin\Debug\net10.0\WorkflowLite.Domain.dll
+D:\WorkFlowLite\WorkflowLite.Domain\bin\Debug\net10.0\WorkflowLite.Domain.pdb
+D:\WorkFlowLite\WorkflowLite.Domain\obj\Debug\net10.0\WorkflowLite.Domain.dll
+D:\WorkFlowLite\WorkflowLite.Domain\obj\Debug\net10.0\refint\WorkflowLite.Domain.dll
+D:\WorkFlowLite\WorkflowLite.Domain\obj\Debug\net10.0\WorkflowLite.Domain.pdb
+D:\WorkFlowLite\WorkflowLite.Domain\obj\Debug\net10.0\ref\WorkflowLite.Domain.dll

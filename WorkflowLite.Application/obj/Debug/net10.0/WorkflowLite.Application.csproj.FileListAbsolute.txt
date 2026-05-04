@@ -1,0 +1,15 @@
+D:\WorkFlowLite\WorkflowLite.Application\obj\Debug\net10.0\WorkflowLite.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkFlowLite\WorkflowLite.Application\obj\Debug\net10.0\WorkflowLite.Application.AssemblyInfoInputs.cache
+D:\WorkFlowLite\WorkflowLite.Application\obj\Debug\net10.0\WorkflowLite.Application.AssemblyInfo.cs
+D:\WorkFlowLite\WorkflowLite.Application\obj\Debug\net10.0\WorkflowLite.Application.csproj.CoreCompileInputs.cache
+D:\WorkFlowLite\WorkflowLite.Application\obj\Debug\net10.0\WorkflowLite.Application.csproj.AssemblyReference.cache
+D:\WorkFlowLite\WorkflowLite.Application\bin\Debug\net10.0\WorkflowLite.Application.deps.json
+D:\WorkFlowLite\WorkflowLite.Application\bin\Debug\net10.0\WorkflowLite.Application.dll
+D:\WorkFlowLite\WorkflowLite.Application\bin\Debug\net10.0\WorkflowLite.Application.pdb
+D:\WorkFlowLite\WorkflowLite.Application\bin\Debug\net10.0\WorkflowLite.Domain.dll
+D:\WorkFlowLite\WorkflowLite.Application\bin\Debug\net10.0\WorkflowLite.Domain.pdb
+D:\WorkFlowLite\WorkflowLite.Application\obj\Debug\net10.0\Workflow.92226346.Up2Date
+D:\WorkFlowLite\WorkflowLite.Application\obj\Debug\net10.0\WorkflowLite.Application.dll
+D:\WorkFlowLite\WorkflowLite.Application\obj\Debug\net10.0\refint\WorkflowLite.Application.dll
+D:\WorkFlowLite\WorkflowLite.Application\obj\Debug\net10.0\WorkflowLite.Application.pdb
+D:\WorkFlowLite\WorkflowLite.Application\obj\Debug\net10.0\ref\WorkflowLite.Application.dll
